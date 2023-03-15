@@ -1,0 +1,15 @@
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\bin\Debug\net7.0\multy.exe
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\bin\Debug\net7.0\multy.deps.json
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\bin\Debug\net7.0\multy.runtimeconfig.json
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\bin\Debug\net7.0\multy.dll
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\bin\Debug\net7.0\multy.pdb
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\multy.csproj.AssemblyReference.cache
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\multy.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\multy.AssemblyInfoInputs.cache
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\multy.AssemblyInfo.cs
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\multy.csproj.CoreCompileInputs.cache
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\multy.dll
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\refint\multy.dll
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\multy.pdb
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\multy.genruntimeconfig.cache
+C:\repo\Java\Selfwork\ComputerScience\Chapter01\Part05\multy\obj\Debug\net7.0\ref\multy.dll
