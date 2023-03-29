@@ -1,3 +1,4 @@
+
 /******************************************************************************
  *  Compilation:  javac Turtle.java
  *  Execution:    java Turtle
@@ -9,8 +10,8 @@
 import java.awt.Color;
 
 public class Turtle {
-    private double x, y;     // turtle is at (x, y)
-    private double angle;    // facing this many degrees counterclockwise from the x-axis
+    private double x, y; // turtle is at (x, y)
+    private double angle; // facing this many degrees counterclockwise from the x-axis
 
     // start at (x0, y0), facing a0 degrees counterclockwise from the x-axis
     public Turtle(double x0, double y0, double a0) {
@@ -43,7 +44,6 @@ public class Turtle {
         StdDraw.pause(t);
     }
 
-
     public void setPenColor(Color color) {
         StdDraw.setPenColor(color);
     }
@@ -64,21 +64,19 @@ public class Turtle {
         StdDraw.setYscale(min, max);
     }
 
-
     // sample client for testing
     public static void main(String[] args) {
         StdDraw.enableDoubleBuffering();
+        int n = Integer.parseInt(args[0]);
         double x0 = 0.5;
         double y0 = 0.0;
-        double a0 = 60.0;
-        double step = Math.sqrt(3)/2;
-        Turtle turtle = new Turtle(x0, y0, a0);
-        turtle.goForward(step);
-        turtle.turnLeft(120.0);
-        turtle.goForward(step);
-        turtle.turnLeft(120.0);
-        turtle.goForward(step);
-        turtle.turnLeft(120.0);
+        double angle = 360.0 / n;
+        double step = Math.sin(Math.toRadians(angle / 2));
+        Turtle turtle = new Turtle(x0, y0, angle / 2);
+        for (int i = 0; i < n; i++) {
+            turtle.goForward(step);
+            turtle.turnLeft(angle);
+        }
         turtle.show();
     }
 
