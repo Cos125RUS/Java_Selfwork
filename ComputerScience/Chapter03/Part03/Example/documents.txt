@@ -1,0 +1,6 @@
+Constitution.txt
+TomSawyer.txt
+Prejudice.txt
+DJIA.csv
+Amazon.html
+ATCG.txt
