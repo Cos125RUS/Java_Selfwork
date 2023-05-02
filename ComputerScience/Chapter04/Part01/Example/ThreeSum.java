@@ -71,5 +71,6 @@ public class ThreeSum {
         int count = count(a);
         StdOut.println("elapsed time = " + timer.elapsedTime());
         StdOut.println(count);
+        if (count < 10) printAll(a);
     }
 }
