@@ -29,7 +29,10 @@ public class Counter implements Comparable<Counter> {
     // increment the counter by 1
     public void increment() {
         if (count < maxCount) count++;
+<<<<<<< HEAD
         assert count >= 0 : "Negative count detected in increment()";
+=======
+>>>>>>> 3f6a8be5dd47781463a0b10e2e96d4a16c4c1240
     }
 
     // return the current count
